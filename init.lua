@@ -21,3 +21,5 @@ minetest.register_alias("bees:honey_extractor", "default:tree")
 minetest.register_alias("bees:hive", "default:tree")
 minetest.register_alias("bees:queen", "mobs_animal:bee")
 minetest.register_alias("bees:bottle_honey", "mobs:honey_block")
+----fixes an earlier error
+minetest.register_alias("mobs_animal:honey_block", "mobs:honey_block")
